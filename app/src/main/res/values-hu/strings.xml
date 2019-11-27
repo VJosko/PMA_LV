@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LV1</string>
+    <string name="dalje">további</string>
+    <string name="datum">dátum</string>
+    <string name="dodaj">hozzáad</string>
+    <string name="godina">év</string>
+    <string name="ime">név</string>
+    <string name="prezime">"vezetéknév"</string>
+    <string name="profesor">egyetemi tanár</string>
+    <string name="predmet">téma</string>
+    <string name="sati">órák száma</string>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">LV1</string>
+    <string-array name="jezici">
+        <item>Hrvatski</item>
+        <item>Engleski</item>
+        <item>Madarski</item>
+    </string-array>
+    <string name="dodaj">dodaj</string>
+    <string name="ime">ime</string>
+    <string name="dalje">dalje</string>
+    <string name="prezime">prezime</string>
+    <string name="datum">datum</string>
+    <string name="predmet">predmet</string>
+    <string name="profesor">profesor</string>
+    <string name="godina">godina</string>
+    <string name="sati">broj sati predavanja</string>
+</resources>

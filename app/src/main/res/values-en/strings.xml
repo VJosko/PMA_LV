@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LV1</string>
+    <string name="dalje">next</string>
+    <string name="datum">date</string>
+    <string name="dodaj">add</string>
+    <string name="godina">year</string>
+    <string name="ime">name</string>
+    <string name="predmet">subject</string>
+    <string name="prezime">surname</string>
+    <string name="profesor">profesor</string>
+    <string name="sati">classes</string>
+</resources>
