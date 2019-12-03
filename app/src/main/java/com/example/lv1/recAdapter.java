@@ -13,6 +13,8 @@ import java.util.List;
 
 public class recAdapter extends RecyclerView.Adapter<recAdapter.MyViewHolder> {
     private List<Student> students = MyDataStorage.getInstance().readStudents();
+    private List<Object> holderi;
+    private String title = "Studenti";
 
     public static class MyViewHolder extends  RecyclerView.ViewHolder{
         public TextView textViewIme;
@@ -26,15 +28,23 @@ public class recAdapter extends RecyclerView.Adapter<recAdapter.MyViewHolder> {
         }
     }
 
+    public static class HeaderViewHolder extends RecyclerView.ViewHolder{
+        public TextView naslov;
+        public HeaderViewHolder(View header){
+            super(header);
+            naslov = header.findViewById(R.id.recNaslov);
+        }
+    }
+
     public recAdapter(){
     }
 
     @NonNull
     @Override
     public recAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.v, parent, false);
-        MyViewHolder vh = new MyViewHolder(v);
-        return vh;
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.v, parent, false);
+            MyViewHolder vh = new MyViewHolder(v);
+            return vh;
     }
 
     @Override
